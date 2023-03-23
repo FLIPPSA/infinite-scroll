@@ -16,7 +16,7 @@ function ImagesSuccessfullyLoaded(){
   if(imagesLoaded === totalImages){
     ready = true;
     laoder.hidden = true;
-    //'to increase performance' -> doesn't do the loading animation
+    //'to increase performance' -> doesn't do the loading animation in between
     Imagecount = 30
     AIPURL = `https://api.unsplash.com/photos/random/?client_id=${APIKEY}&count=${Imagecount}`
   }
